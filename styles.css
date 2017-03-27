@@ -1,0 +1,280 @@
+*{
+  line-height: 14px;
+  font-family: roboto;
+}
+
+header{
+  background-color: transparent;
+  /*height: 53px;*/
+}
+
+header > .container-fluid {
+  padding: 0 20px;
+  /*background-color: #000;*/
+}
+
+.head{
+  background-color: transparent;
+  border: 0;
+}
+
+.brand-name{
+  font-size: 30px;
+  /*color: #615b5b;*/
+  margin-left: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.brand-name{
+  margin-left: 5px;
+}
+
+.brand-name > img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline;
+  margin-left: 5px;
+  margin-right: 3px;
+}
+
+
+.container-fluid > ul{
+  margin-left: 120px;
+  margin-top: 5px;
+}
+
+.head-list > li > a, .container-fluid > ul > li > a{
+  line-height: 8px;
+  height: 44px;
+}
+
+.head-list{
+  margin-top: 5px;
+}
+
+.masthead{
+  height: 725px;
+  background: #230303 url('../bs1/images/masthead.png') center top no-repeat;
+}
+
+.masthead > .img {
+  width: 400px;
+
+}
+
+.jumbotron{
+  margin-top: 500px;
+  background-color: transparent;
+  height: 100%;
+}
+
+#links > .container-fluid{
+  /*height: 725px;*/
+  padding: 0;
+}
+
+.desc{
+  background: transparent url('../bs1/images/desc.jpg') left top no-repeat;
+  height:700px;
+  padding: 0;
+}
+
+.desc > .play-btn{
+  width: 50px;
+  height: 50px;
+  padding-top: 345px;
+  padding-left: 345px;
+  margin-right: 0;
+}
+
+.siz{
+  font-size: 40px;
+  height: 40px;
+}
+
+.description{
+  padding-top: 200px;
+  margin-left: 15px;
+}
+
+.description > h2{
+  width: 70px;
+  height: 20px;
+  padding: 5px;
+  font-size: 10px;
+  background-color: red;
+  color: #eee;
+  margin-left: 15px;
+}
+
+
+.description > h3{
+  color: #eee;
+  margin-left: 15px;
+  padding: 0;
+}
+
+.links-1{
+  padding: 0;
+  position: relative;
+}
+
+.insta{
+  width: 353px;
+  height: 350px;
+  margin-right: 0;
+  background-color: rgb(220, 48, 52);
+  padding: 0;
+}
+
+.insta-text{
+  text-align: center;
+  padding-top: 125px;
+  opacity: 1;
+}
+
+.ferrari{
+  height: 350px;
+  width: 353px;
+  padding: 0;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+.ferrari > img{
+  width: 350px;
+  height: 350px;
+  /*background: transparent url('../bs1/images/links-ferrari.jpg') center top no-repeat;*/
+}
+
+.twitter{
+  height: 350px;
+  background-color: #2d0808;
+}
+
+.twitter > i{
+  margin-left: 340px;
+  margin-top: 10px;
+  color: #920b0b;
+}
+
+.twitter > p{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 25px;
+  line-height: normal;
+  border-left-width: 0;
+  font-family: sofia;
+  /*background-color: #615b5b;*/
+  /*padding-bottom: 350px;*/
+  /*margin-bottom: 0;*/
+  color: white;
+}
+
+.half-watch{
+  background: transparent url("../bs1/images/half-watch.jpg") center top no-repeat;
+  -webkit-background-size: 420px;
+  background-size: 420px;
+  height: 650px;
+  width: 420px;
+  padding: 0;
+}
+
+.facebook{
+  height: 650px;
+  padding: 0;
+}
+
+.facebook-text{
+  height: 325px;
+  text-align: center;
+  padding-top: 125px;
+  color: #613b3b;
+  width: 100%;
+  background-color: rgb(25,8,8);
+}
+
+.vid{
+  height: 325px;
+  width: 100%;
+  background: transparent url("../bs1/images/fer-pic.jpg") center top no-repeat;
+  background-size: 470.66px;
+}
+
+.vid > img{
+  height: 325px;
+  width: 470.66px;
+  opacity: 0;
+}
+
+.engineer{
+  height: 650px;
+  background-color: #ccc;
+  background: transparent url("../bs1/images/full-watch.jpg") center top no-repeat;
+  padding: 0;
+}
+
+.innovation{
+  margin-left: 15px;
+  padding-top: 550px;
+  color: #fff;
+}
+
+#quote{
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  padding: 130px 20px;
+  background-color: #ddd;
+  font-size: 20px;
+  font-family: galaxieCopernicus;
+}
+
+.footer{
+  text-align: center;
+  background-color: #222;
+}
+
+.symbol{
+  font-size: 45px;
+  /*text-align: center;*/
+  margin-top: 30px;
+}
+
+.symbol > img{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.copyrt{
+  margin-top: 40px;
+}
+
+.copyrt{
+  font-size: 10px;
+}
+
+.footer-links{
+  margin-top: 40px;
+}
+
+.footer-links >  a{
+  font-size: 12px;
+  padding: 5px;
+  color: #aaa;
+}
+
+.meet-links{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.meet-links > a{
+  font-size: 20px;
+  padding: 5px 10px;
+  color: #aaa;
+}
