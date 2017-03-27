@@ -56,7 +56,7 @@ header > .container-fluid {
 
 .masthead{
   height: 725px;
-  background: #230303 url('../bs1/images/masthead.png') center top no-repeat;
+  background: #230303 url('../Hublot-Mockup/images/masthead.png') center top no-repeat;
 }
 
 .masthead > .img {
@@ -76,7 +76,7 @@ header > .container-fluid {
 }
 
 .desc{
-  background: transparent url('../bs1/images/desc.jpg') left top no-repeat;
+  background: transparent url('../Hublot-Mockup/images/desc.jpg') left top no-repeat;
   height:700px;
   padding: 0;
 }
@@ -147,7 +147,7 @@ header > .container-fluid {
 .ferrari > img{
   width: 350px;
   height: 350px;
-  /*background: transparent url('../bs1/images/links-ferrari.jpg') center top no-repeat;*/
+  /*background: transparent url('../Hublot-Mockup/images/links-ferrari.jpg') center top no-repeat;*/
 }
 
 .twitter{
@@ -175,12 +175,16 @@ header > .container-fluid {
 }
 
 .half-watch{
-  background: transparent url("../bs1/images/half-watch.jpg") center top no-repeat;
+  background: transparent url("../Hublot-Mockup/images/half-watch.jpg") center top no-repeat;
   -webkit-background-size: 420px;
-  background-size: 420px;
+  background-size: 460.68px;
   height: 650px;
-  width: 420px;
+  width: 460.68px;
   padding: 0;
+}
+
+.half-watch > h5{
+  padding-left: 20px;
 }
 
 .facebook{
@@ -200,7 +204,7 @@ header > .container-fluid {
 .vid{
   height: 325px;
   width: 100%;
-  background: transparent url("../bs1/images/fer-pic.jpg") center top no-repeat;
+  background: transparent url("../Hublot-Mockup/images/fer-pic.jpg") center top no-repeat;
   background-size: 470.66px;
 }
 
@@ -213,7 +217,7 @@ header > .container-fluid {
 .engineer{
   height: 650px;
   background-color: #ccc;
-  background: transparent url("../bs1/images/full-watch.jpg") center top no-repeat;
+  background: transparent url("../Hublot-Mockup/images/full-watch.jpg") center top no-repeat;
   padding: 0;
 }
 
